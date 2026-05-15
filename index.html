@@ -1,131 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML and inpust </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.Css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<title>batul al</title>
 </head>
 <body>
-<form>
-<label for="fname">first name </label>
-<input type="text" id="fname" name="fname"
-placeholder="Enter your first name"
-required
-/>
-<br/>
-<label for="fname">first name </label>
-<input type="text" id="fname" name="fname"
-placeholder="Enter your last name"
-required
-/>
-<br> 
-<label for="fname">email</label>
-<input type="email" id="email" name="email"
-placeholder="Enter your email"
-required
-/>
-<br> 
-<label for="fname">password</label>
-<input type="password"  id="password" name="password"
-placeholder="Enter your password"
-required
-/>
-<br> 
-<label for="age">age</label>
-<input type="number" id="age" name="age"
-placeholder="Enter your age"
-required
-min="9"
-max="80"
-/>
-<br> 
-<label for="range">range</label>
-<input type="range" id="range" name="range"
-placeholder="Enter your range"
-required
-min="9"
-max="80"
-step="1"
-value="20"
-/>
-<br> 
-<label for="date">date</label>
-<input type="date" id="date" name="date"
-/>
-<br>
- <label for="time">time</label>
-<input type="time" id="date" name="time"/>
-<br>
- <label for="datetime local"> datetime local</label>
-<input type="datetime-local" id="datetime-local" name="datetime-local"/>
-<br>
- <label for="month"> month</label>
-<input type="month" id="month" name="month"
-/>
-<br>
- <label for="week "> week</label>
-<input type="week" id="week" name="week"/>
-<br>
- <label for="search"> <search> </label>
-<input type="search" id="search" name="search"/>
-<br>
- <label for="tel">Telephone: </label>
-<input type="tel" id="tel" name="tel"/>
-<br>
- <label for="color"> color:</label>
-<input type="color" id="color" name="color" value="000000"/>
-<br>
- <label for="checkbox">checkbox: </label>
-<input type="checkbox" id="checkbox" name="checkbox"  value="checkbox"
- br />
-  <label>female:</label>
-  <input type="radio" id="radio" name="radio" value="F"/> 
-<label>Male:</label>
-<input type="radio " id="radio" name="radio" value="M"/>
+<header>
+<a href="#" class="logo"> batul</a>
+<nav class="navigation">
+<a href="#services"> services</a>
+<a href="#projects"> projects</a>
+<a href="#contact"> contact</a>
 
-<br>
-<label for="file">file:</label>
-<input type="file" id="file" name="file"/>
-<br>
-<input type="reset"/>
-<br/>
-<input type="submit"/>
-<br/>
-<label for="message"> message</label>
-<textarea rows="10" cols="40"  name="message" id="message"></textarea>
-<br/>
-<label for="choose"> choose a color:</label>
-<select>
-<option  id="colors"  name="colors">
-<option value="red">red </option>
-<option value="green">green </option>
-<option value="blaue">blaue </option>
-<option value="yell">yell </option>
-</select>
-<br/>
-<label for="colors"> choose a color:</label>
-<input type=" text" list="color-options"  name="colors"/>
-<datalist  id="color-options">
-<option value="red">red </option>
-<option value="green">green </option>
-<option value="blaue">blaue </option>
-<option value="yell">yell </option>
-</datalist>  
-<br/>
-<label for="fruits"> choose a fruits:</label>
-<select id="fruits"  name="fruits"> 
-<optgroup> <label="citruse"> 
-<option value="orange "> orange</option>
-<option value="appel"> apple</option>
-<option value="lemon "> lemon</option>
-<option value="lime "> lime</option>
-</optgroup>
- <optgroup> <label="berries">
-<option value="strawberry "> strawberry</option>
-<option value="bleberry"> apple</option>
- </optgroup>
-    <option value="appel"> apple</option>
-</select>
-</form>
-</body>
-</html>
+
+
+</nav>
+</header>  
+    
+
+<section class="main">
+<div>
+    <h2>مرحبا انا بتول الاحمد<br><span>Full Stack Developer  </span></h2>
+<h3>    مطورة ويب مبتدئة احب تعلم اشياء ومهارات جديدة احب البرمجه واسعى لتطوير نفسي بها    </h3>
+<a href="#projects" class="main-btn"> view my work</a>
+<div class="social-icons">
+
+<a href="https://www.instagram.com/batul_al11/" target="_blank"><i class="fab fa-instagram"></i></a>
+
+
+
+
+</div>
+</div>
+</section>
+
+<section id="services" class="services">
+    <h2>خدماتي</h2>
+    <div class="services-container">
+        <div class="service">
+            <i class="fas fa-code"></i>
+            <h3>تطوير الويب</h3>
+            <p>أقوم بتطوير مواقع ويب باستخدام HTML, CSS, JavaScript وإطارات العمل الحديثة.</p>
+        </div>
+        <div class="service">
+            <i class="fab fa-html5"></i>
+            <h3>HTML</h3>
+            <p>أتعلم بناء هيكل الصفحات باستخدام HTML.</p>
+        </div>
+        <div class="service">
+            <i class="fab fa-css3-alt"></i>
+            <h3>CSS</h3>
+            <p>أتعلم تصميم وتنسيق الصفحات باستخدام CSS.</p>
+        </div>
+        <div class="service">
+            <i class="fab fa-js-square"></i>
+            <h3>JavaScript</h3>
+            <p>أتعلم إضافة التفاعل والديناميكية باستخدام JavaScript.</p>
+        </div>
+        <div class="service">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>تطوير التطبيقات</h3>
+            <p>أطور تطبيقات الهواتف المحمولة باستخدام React Native و Flutter.</p>
+        </div>
+        <div class="service">
+            <i class="fas fa-database"></i>
+            <h3>قواعد البيانات</h3>
+            <p>أعمل على تصميم وإدارة قواعد البيانات باستخدام SQL و MongoDB.</p>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="projects">
+    <h2>مشاريعي</h2>
+    <div class="projects-container">
+        <div class="project">
+            <img src="images/project1.jpg" alt="مشروع 1">
+            <h3>موقع شخصي</h3>
+            <p>موقع بورتفوليو شخصي باستخدام HTML و CSS.</p>
+            <a href="#" class="btn">عرض المشروع</a>
+        </div>
+        <div class="project">
+            <img src="images/project2.jpg" alt="مشروع 2">
+            <h3>تطبيق مهام</h3>
+            <p>تطبيق إدارة المهام باستخدام React.</p>
+            <a href="#" class="btn">عرض المشروع</a>
+        </div>
+        <div class="project">
+            <img src="images/project3.jpg" alt="مشروع 3">
+            <h3>متجر إلكتروني</h3>
+            <p>متجر إلكتروني بسيط باستخدام Node.js و Express.</p>
+            <a href="#" class="btn">عرض المشروع</a>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>تواصل معي</h2>
+    <form class="contact-form">
+        <input type="text" placeholder="الاسم" required>
+        <input type="email" placeholder="البريد الإلكتروني" required>
+        <textarea placeholder="الرسالة" required></textarea>
+        <button type="submit" class="btn">إرسال</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2023 بتول الأحمد. جميع الحقوق محفوظة.</p>
+</footer>

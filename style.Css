@@ -1,0 +1,291 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+
+font-family: "Poppins", sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+
+}
+header{
+background-color: rgb(251, 245, 245);
+width: 100%;
+position: fixed;
+z-index: 999;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 200;
+text-align: center;
+
+}
+.logo{
+
+
+
+    text-decoration: none;
+    color: rgb(7, 39, 247);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    
+
+}
+.navigation a{
+color: rgb(7, 39, 247);
+text-decoration: none;
+font-size: 1.1em;
+font-weight: 500;
+padding-left: 30px;
+
+}
+
+.navigation a:hover{
+color: rgb(193, 138, 248);
+
+
+
+
+
+}
+
+section{
+padding: 100px 200px;
+
+
+}
+.main{
+width: 100%;
+min-height: 100vh ;
+display: flex;
+align-items: center;
+background: url(pngtree-3d-blue-hexagonal-wallpaper-4k-hd-desktop-wallpapers-picture-image_2711965.jpg)no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+
+
+}
+.main h2{
+color: aliceblue;
+font-size: 1.4em;
+font-weight: 500;
+
+
+
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+color: rgb(42, 6, 248);
+font-size: 3em;
+font-weight: 600;
+
+
+
+
+}
+.main h3{
+color: rgb(253, 253, 253);
+font-size: 2.5em;
+font-weight: 700;
+letter-spacing: 1px;
+margin-top: 10px;
+margin-bottom: 30px;
+text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+
+
+
+
+
+}
+.main-btn{
+font-size: 1.1em;
+text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+font-weight: 600;
+color: aliceblue;
+background-color: rgb(46, 59, 244);
+text-decoration: none;
+display: inline-block;
+padding: 0.9375em 2.1875em;
+letter-spacing: 1px;
+border-radius: 15px;
+margin-bottom: 40px;
+transition: 0.7s ease;
+}
+.main-btn:hover{
+background-color: rgb(23, 35, 195);
+transform: scale(1.1);
+padding-right: 30px;
+
+
+}
+
+.social-icons a {
+    color: aliceblue;
+    font-size: 2em;
+    margin-right: 20px;
+    transition: 0.5s ease;
+}
+
+.social-icons a:hover {
+    color: rgb(193, 138, 248);
+    transform: scale(1.2);
+}
+
+.services {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2.5em;
+    margin-bottom: 50px;
+    color: rgb(7, 39, 247);
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.service i {
+    font-size: 3em;
+    color: rgb(42, 6, 248);
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.projects {
+    background-color: white;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 50px;
+    color: rgb(7, 39, 247);
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.project img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.project h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: rgb(46, 59, 244);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgb(23, 35, 195);
+}
+
+.contact {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 50px;
+    color: rgb(7, 39, 247);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 50%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact-form textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+footer {
+    background-color: rgb(7, 39, 247);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+@media( max-width:1023px){ 
+    header{
+        padding:12px 20px;
+    }
+.navigation a{
+padding: left 10px;
+
+}
+    .title{
+
+        font-size: 1.8em;
+    }
+    .secttion{
+        padding: 80px 20px;
+    }
+    .main-content h2{
+
+        font-size: 1em;
+    }
+    .main-content h3{
+
+        font-size: 1.6em;
+    }
+.content {
+    flex-direction: column;
+    align-items: center;
+    
+}
+}
